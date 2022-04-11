@@ -30,7 +30,7 @@ The above command is just an example - any namespace can be used to install PodC
 
 ## Test
 Unit tests are being run as part of the build.
-The helm charts available under `./helm` can be used to simualte a real-life scenario.
+The helm charts available under `./helm` can be used to simulate a real-life scenario.
 
 ```
 helm install test-workload ./helm/test-workload --namespace workloads --create-namespace
@@ -45,7 +45,7 @@ podAnnotations:
 
 Feel free to spin multiple instances of the chart or remove the annotation to test the behaviour.
 
-## TODO / ideas for improvement
+## Ideas for improvement
 - fix hardcoded namespace in cluster role binding
 - think about how to structure rbac stuff in charts
 - add more options for filtering pods - age, state, exlusion, etc.
