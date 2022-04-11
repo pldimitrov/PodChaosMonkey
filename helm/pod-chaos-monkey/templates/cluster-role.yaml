@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+
+metadata:
+  name: pod-chaos-monkey-cluster-role
+
+rules:
+  - apiGroups: [""]
+    resources: ["nodes", "services", "pods", "endpoints"]
+    verbs: ["get", "list", "watch", "delete"]
+
+
+
