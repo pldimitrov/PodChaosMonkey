@@ -43,7 +43,7 @@ podAnnotations:
   podchaosmonkey: "true"
 ```
 
-Feel free to spin multiple instances of the chart or remove the annotation to test the behaviour.
+Feel free to install multiple instances of the chart or remove the annotation to test the behaviour.
 
 ## Ideas for improvement
 - fix hardcoded namespace in cluster role binding
