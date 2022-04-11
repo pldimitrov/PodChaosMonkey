@@ -46,7 +46,7 @@ podAnnotations:
 Feel free to install multiple instances of the chart or remove the annotation to test the behaviour.
 
 ## Ideas for improvement
-- add more options for filtering pods - age, state, exlusion, etc.
+- add more options for filtering pods - age, state, exclusion, etc.
 - support more complex scheduling options - only run on certain days of the week, or during a specified time window during weekdays
 - prometheus metrics endpoint
 - readiness/liveness probes
