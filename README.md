@@ -1,7 +1,7 @@
 # PodChaosMonkey
 
 PodChaosMonkey is a basic chaos engineering tool that randomly deletes a pod matching a given namespace and annotations at a specified interval.
-It runs a kubernetes deployment and can be configured using the following environment variables in `./helm/pod-chaos-monkey/values.yaml`:
+It runs as a k8s deployment and can be configured using the following environment variables in `./helm/pod-chaos-monkey/values.yaml`:
 
 ```
 env:
